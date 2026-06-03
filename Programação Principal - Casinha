@@ -209,12 +209,12 @@ void moverServoComMillis() // controla o movimento do servo utilizando millis
 
 void abrir_portao() 
 {
-    anguloAlvo = 120;
+    anguloAlvo = 90;
     servoMovendo = true; // em movimento
 }
 
 void fechar_portao() 
 {
-    anguloAlvo = 178;
+    anguloAlvo = 190;
     servoMovendo = true; // em movimento
 }
